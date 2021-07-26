@@ -100,6 +100,13 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+.writingcard{
+  background: #fff;
+  margin: 30px;
+  padding: 60px 60px 60px;
+  max-width: 600px;
+}
+
 .card:hover {
   border-color: #ff99ff;
 }
@@ -310,7 +317,13 @@ input[name="r"]{
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
   
-  
+  .contactcard{
+    margin: 100px;
+    padding: 60px 60px 60px;
+    text-align: center;
+    background: #fff;
+    
+  }
 
 /* Media queries */
 
@@ -320,8 +333,7 @@ input[name="r"]{
       font-size: 20px;
       flex-direction: column;
       z-index: -3;
-      margin: 20px 10px 20px 10px;
-      
+      margin: 0;
 
      }
      header{
@@ -339,6 +351,14 @@ input[name="r"]{
       width: 100%;
       height: auto;
      }
+     .contactcard{
+     
+      margin: 40px;
+      padding: 250px 40px 40px;
+      background: #fff;
+ 
+  
+    }
     
 
 
