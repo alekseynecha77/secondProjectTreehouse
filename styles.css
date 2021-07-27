@@ -216,7 +216,7 @@ a.social:hover {
 
 
 .slidershow{
-  width: 50%;
+  width: 100%;
   overflow: hidden;
 }
 .middle{
@@ -341,28 +341,37 @@ input[name="r"]{
 
      }
      .writingcard{
-      margin: 10px;
+      margin: 0 auto;
       padding: 250px 40px 40px;
       background: #fff;
-
+      width: 60%;
+      height: auto;
      }
 
      .slide img{
-      width: 100%;
+      width: 60%;
       height: auto;
      }
      .contactcard{
-     
       margin: 40px;
       padding: 250px 40px 40px;
       background: #fff;
- 
-  
+      padding: 250px 40px 40px;
+
     }
+
+  }
+
+@media (min-width: 768px) {
+  .slidershow {
+    width: 50%;
+    overflow: hidden;
     
-
-
+  }
 }
+
+
+
 
 
 
